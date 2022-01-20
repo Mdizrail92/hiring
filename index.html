@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hiring</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-success">
+        <div class="container">
+            <a class="navbar-brand " href="#">Hiring</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Talent</a>
+                    </li>
+
+
+                </ul>
+                <a class="navbar-btn" href="#">Contact US</a>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar ends -->
+    <!-- Banner -->
+    <div class="header">
+        <div class="content">
+            <div class="main-text">
+                <h1>We're here to help you.</h1>
+                <p>We connect talented people with great <br> companies. Join our network today.</p>
+                <a class="banner-btn" href="">Join Our Network</a>
+            </div>
+            <div class="model"></div>
+        </div>
+
+    </div>
+    <!-- Banner ends -->
+
+    <!-- employer and jobseekre section -->
+<section id="employers" >
+<div class="container-fluid  jobseekers-text ">
+    <div class="row">
+        <div class="col-sm-6 jobseekers-img padding-0">
+            <img class="img-fluid" src="/images/pexels-cottonbro-7438101 (1) (1).jpg" alt="">
+        </div>
+        <div class="col-sm-6  align-self-center padding-0">
+            <div class="jobseeker-content">
+            <h1>For JobSeekers</h1>
+            <h3>We’re Here To Help You Find Work</h3>
+            <p class="mt-4 mb-4">Our Talent Acquisition agents can work together with you, and discuss opportunities with the best companies in the market. There are on-site and remote opportunities that you can choose from. Join our growing network of professionals and sign up today.</p>
+            <a class="jobseeker-btn mt-3" href="#">Join Our Network</a>
+        </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid  jobseekers-text ">
+    <div class="row">
+        <div class="col-sm-6  align-self-center padding-0">
+            <div class="jobseeker-content">
+            <h1>For JobSeekers</h1>
+            <h3>We’re Here To Help You Find Work</h3>
+            <p class="mt-4 mb-4">Our Talent Acquisition agents can work together with you, and discuss opportunities with the best companies in the market. There are on-site and remote opportunities that you can choose from. Join our growing network of professionals and sign up today.</p>
+            <a class="jobseeker-btn mt-3" href="#">Join Our Network</a>
+        </div>
+        </div>
+        <div class="col-sm-6 jobseekers-img padding-0">
+            <img class="img-fluid" src="/images/pexels-edmond-dantès-4347366 (2) (1) (1).jpg" alt="">
+        </div>
+        
+    </div>
+</div>
+</section>
+    <!--employer and jobseekre section  ends  -->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+<script>
+    $(function (){
+$(document).scroll(function(){
+var $nav = $(".bg-success");
+$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+
+});
+});
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Open, Arial, sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+.header {
+    background-image: linear-gradient(rgba(0.5, 0, 0, 0.5), rgba(1.8, 0, 0, 0.1)), url(../images/pexels-cottonbro-7438101\ \(1\)\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    margin-top: -112px;
+
+}
+
+.content {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 44%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model {
+    width: 100px;
+}
+
+.main-text h1 {
+    color: white;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.1;
+    padding: 0 0 10px;
+}
+
+.main-text p {
+    color: white;
+    font-size: 28px;
+    line-height: 1.4;
+    padding: 0 0 20px 0;
+}
+
+.banner-btn {
+    background-color: #dcbc37;
+    color: #2d2b2c;
+    padding: 13px 41px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.7s;
+
+}
+
+.banner-btn:hover {
+    background-color: transparent;
+    border: 3px solid #dcbc37;
+    color: #dcbc37;
+}
+
+/* navbar */
+.bg-success {
+    background: transparent !important;
+    padding: 12px  0;
+    transform: all 0.8s;
+
+}
+.bg-success.scrolled{
+    background-color: #2d2b2c !important;
+  
+}
+
+.navbar-btn {
+    background-color: #dcbc37;
+    color: #2d2b2c;
+    padding: 13px 41px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.7s;
+
+}
+
+.navbar-btn:hover {
+    color: #2d2b2c;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-size: 36px;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+/* second section */
+
+.jobseekers-text{
+    background: #dcbc37;
+
+}
+.jobseekers-text h1{
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.jobseekers-text h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.jobseekers-text p{
+    font-size: 16px;
+}
+.jobseeker-content{
+    padding: 0 80px;
+}
+.jobseeker-btn{
+    background-color: #2d2b2c;
+    color: #fff;
+    padding: 13px 41px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.padding-0{
+    padding-right:0;
+    padding-left:0;
+}
