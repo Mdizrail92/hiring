@@ -202,6 +202,76 @@ color: #fff;
     color: white;
 }
 
+/* services */
+#services{
+    background-image:linear-gradient(rgba(0.5, 0, 0, 0.5), rgba(1.8, 0, 0, 0.1)),  url(../images/services-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.services-detail{
+    font-size: 18px;
+    padding: 12px;
+    color: white;
+}
+.services-img{
+    width: 70%;
+    height: auto;
+}
+.services-img-2{
+    position: relative;
+    left: 88px;
+    top: -241px;
+
+}
+/* services ends */
+
+/* Blogs */
+#blogs{
+    margin-top: 120px;
+}
+.blogs-card{
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: all 1s; 
+    filter: grayscale(100%);
+}
+
+.blogs-card-1{
+    background-image: linear-gradient(rgba(0.5, 0, 0, 0.5), rgba(1.8, 0, 0, 0.1)),  url(../images/Do-You-Have-Work-Life-Balance.jpg);
+  
+}
+.blogs-card-2{
+    background-image: linear-gradient(rgba(0.5, 0, 0, 0.5), rgba(1.8, 0, 0, 0.1)),  url(../images/Time-Off-from-Work-Isnt-a-Luxury-Its-a-Necessity.jpg);
+
+}
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    .blog-details{
+        bottom: 0;
+        position: absolute;
+        padding: 10px;
+    }
+.blog-cards p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    bottom: 0;
+}
+.date-published{
+    color: white;
+}
+/* Blogs ends */
+
 /* Footer */
 #footer{
     background-color: #2d2b2c;
@@ -270,12 +340,19 @@ margin-top: 15px;
         color: rgba(0,0,0,.55);
         border-color: rgba(110, 110, 110, 0.452);
     }
+
 }
 @media only screen and (max-width:768px){
     .navbar-light .navbar-nav .nav-link {
            padding: 0 8px;
            font-size: 16px;
     
+    }
+    #services{
+        height: 100%;
+    }
+    #blogs{
+        margin-top: 10px;
     }
     
 }
